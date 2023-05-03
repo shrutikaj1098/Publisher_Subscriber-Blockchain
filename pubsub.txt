@@ -1,0 +1,28 @@
+Contract variables in pubsub.sol
+1.PubData	    : which stores eventID->uint and hash->bytes32
+		    data type -> struct
+1.PersonDetails : which stores the register persons details
+		    data type -> uint
+2.topicRegList  : which stores the registered topics created by a person
+		    data type -> mapping(uint => uint[])
+3.pubData	    : registering publishment data
+			data type -> mapping(uint => mapping(uint => PubData []))
+5.subData       : which stores the subscription mapping
+			data type -> mapping(uint => mapping(uint => uint []))
+
+topicRegList
+Contract methods in pubsub.sol
+1.registerperson: method to register a person.
+			which takes _userID as input and update in personDetails
+2.registerTopic : method to register a topic
+			which takes _userID and _topicID as input and updates in topicRegList
+3.deleteTopic   : method to delete a topic registraction
+			which takes _userID and _topic as input and delete from topicRegList	
+4.publishData   :method to publish data
+			which takes _pudid,_topicid,_eventid and hash and stores in pubData(struct)		
+5.subscription  : method to subscribe
+			which takes _subs,_pub and topicid and update in subData
+6.removesubs    : method to remove subscription
+			which takes _subs,_pub and topicid and delete entery in subData
+7.retHash	    : only method which will return hash of the pubData and return type is bytes32
+			which takes _pubid,_topicid and _eventid and return the hash present in the pubData
