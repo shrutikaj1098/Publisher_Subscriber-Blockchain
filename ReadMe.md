@@ -54,8 +54,8 @@ automatically pop up.
 - npm install -g create-react-app
 - Once the installation is complete, navigate to the directory where you want to create your new React app.
 - Run the following command to create a new React app:
-1)create-react-app publisher_subscriber_scheme_for_ethereum_smart_contracts	
-2)note: npm naming restrictions name can no longer contain capital letters
+	1)create-react-app publisher_subscriber_scheme_for_ethereum_smart_contracts	
+	2)note: npm naming restrictions name can no longer contain capital letters
 	
 7.cd publisher_subscriber_scheme_for_ethereum_smart_contracts
 
