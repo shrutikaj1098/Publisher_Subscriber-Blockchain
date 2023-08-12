@@ -1,4 +1,4 @@
-
+#PUBLISHER SUBSCRIBER BLOCKCHAIN
 *********************************Pre-Requisites**************************************
 1.Install mongoDB Compass (link to download https://www.mongodb.com/try/download/community)
 2.Install ganache
@@ -29,8 +29,6 @@
 	If you are still facing issues please follow the link: https://www.youtube.com/watch?v=lv4HEyiw4EQ&t=149s&pp=ygUWYWRkIGdhbmNoZSBpbiBtZXRhbWFzaw%3D%3D
 
 5.Deploy contract
-	Download the file from the location 
-	https://github.com/Lavany549/Publisher_Subscriber_Implementation/blob/main/publisher_subscriber_scheme_for_ethereum_smart_contracts.zip
 	Extract and go to src/contracts/pubsub.sol and copy the pubsub.sol.
 	go to remix site  (https://remix.ethereum.org/)
 	open a new file, name it as pubsub.sol and  paste the code.
@@ -73,4 +71,6 @@ Run the following command to create a new React app:
 	terminal_2: nodemon .\src\backend\back.js
 	terminal_3: npm start
 
-YOU ARE GOOD TO GO
+YOU ARE GOOD TO GO!!
+
+Please Reach out to me in case of Query. Happy Learning!!
