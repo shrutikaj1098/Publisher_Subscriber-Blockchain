@@ -11,35 +11,35 @@
 - Keep it aside for no... dont close it
 
 3.Install metamask extension in chrome.
-	- Create an account
-	- Enter inside
-	- Enable test network from settings 
-	- Add a new network
-	- Add a network manually
-	- network name : ganache_local_network
-	- new rpc url : http://127.0.0.1:7545
-	- chain id : 1337
-	- currency symbol : GAN 
-	- click save
-	-switch to ganache network
+- Create an account
+- Enter inside
+- Enable test network from settings 
+- Add a new network
+- Add a network manually
+- network name : ganache_local_network
+- new rpc url : http://127.0.0.1:7545
+- chain id : 1337
+- currency symbol : GAN 
+- click save
+-switch to ganache network
 
 4.Import accounts into metamask
-	- click the circle above
-	- import account
-	- go to the ganache app
-	- click on the key symbol on the right
-	- copy the private key
-	- paste it in metamask
-        - repeat the steps if u want to add more accounts
-	- If you are still facing issues please follow the link: https://www.youtube.com/watch?v=lv4HEyiw4EQ&t=149s&pp=ygUWYWRkIGdhbmNoZSBpbiBtZXRhbWFzaw%3D%3D
+- click the circle above
+- import account
+- go to the ganache app
+- click on the key symbol on the right
+- copy the private key
+- paste it in metamask
+- repeat the steps if u want to add more accounts
+- If you are still facing issues please follow the link: https://www.youtube.com/watch?v=lv4HEyiw4EQ&t=149s&pp=ygUWYWRkIGdhbmNoZSBpbiBtZXRhbWFzaw%3D%3D
 
 5.Deploy contract
-	- Extract and go to src/contracts/pubsub.sol and copy the pubsub.sol.
-	- go to remix site  (https://remix.ethereum.org/)
-	- open a new file, name it as pubsub.sol and  paste the code.
-	- save it,... compile it
-	- before deployment change environment to injected provider - Ganache Provider and change Ganache JSON-RPC Endpoint: http://127.0.0.1:7545
-	- deploy it
+- Extract and go to src/contracts/pubsub.sol and copy the pubsub.sol.
+- go to remix site  (https://remix.ethereum.org/)
+- open a new file, name it as pubsub.sol and  paste the code.
+- save it,... compile it
+- before deployment change environment to injected provider - Ganache Provider and change Ganache JSON-RPC Endpoint: http://127.0.0.1:7545
+- deploy it
 
 
 #### VERY IMPORTANT NOTES...
@@ -51,11 +51,11 @@ automatically pop up.
 
 
 6.Install Node.js and NPM (Node Package Manager) on your computer, if you haven't already done so.Open your terminal or command prompt and run the following command to install the create-react-app tool globally:
-	- npm install -g create-react-app
- 	- Once the installation is complete, navigate to the directory where you want to create your new React app.
-	- Run the following command to create a new React app:
-		1)create-react-app publisher_subscriber_scheme_for_ethereum_smart_contracts	
-		2)note: npm naming restrictions name can no longer contain capital letters
+- npm install -g create-react-app
+- Once the installation is complete, navigate to the directory where you want to create your new React app.
+- Run the following command to create a new React app:
+1)create-react-app publisher_subscriber_scheme_for_ethereum_smart_contracts	
+2)note: npm naming restrictions name can no longer contain capital letters
 	
 7.cd publisher_subscriber_scheme_for_ethereum_smart_contracts
 
@@ -64,16 +64,16 @@ automatically pop up.
 9.npm install
 
 10.In the code files...
-    - go to the compile page of remix of pubsub.sol 
-    - copy the ABI code of the pubsub.sol file... there is a button in the last of the compile tab
-    - paste it in the abi variable in the pubsub.js file in src/contracts
-    - after deploying it, copy the deployment address and paste it in the addr variable in the pubsub.js file in src/contracts
-    - save all.
+- go to the compile page of remix of pubsub.sol 
+- copy the ABI code of the pubsub.sol file... there is a button in the last of the compile tab
+- paste it in the abi variable in the pubsub.js file in src/contracts
+- after deploying it, copy the deployment address and paste it in the addr variable in the pubsub.js file in src/contracts
+- save all.
 12.Open mongoDB and connect to your localhost.
 11.Open 3 different terminals in current location
-	- terminal_1: cd .\src\DB\mongod --dbpath ./
-	- terminal_2: nodemon .\src\backend\back.js
-	- terminal_3: npm start
+- terminal_1: cd .\src\DB\mongod --dbpath ./
+- terminal_2: nodemon .\src\backend\back.js
+- terminal_3: npm start
 
 YOU ARE GOOD TO GO!!
 
