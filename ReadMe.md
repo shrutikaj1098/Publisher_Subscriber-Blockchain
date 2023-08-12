@@ -7,8 +7,8 @@
 1.Install mongoDB Compass (link to download https://www.mongodb.com/try/download/community)
 
 2.Install ganache
--Create a new workspace
--Keep it aside for no... dont close it
+- Create a new workspace
+- Keep it aside for no... dont close it
 
 3.Install metamask extension in chrome.
 	-Create an account
